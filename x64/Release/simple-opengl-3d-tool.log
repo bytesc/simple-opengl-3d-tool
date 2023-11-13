@@ -42,4 +42,8 @@ D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\simple-opengl-3d-
 D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\simple-opengl-3d-tool.cpp(85,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
 D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\simple-opengl-3d-tool.cpp(88,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
 D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\simple-opengl-3d-tool.cpp(97,34): warning C4326: “main”的返回类型应为“int”而非“void”
-  simple-opengl-3d-tool.vcxproj -> D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\x64\Debug\simple-opengl-3d-tool.exe
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 22 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  simple-opengl-3d-tool.vcxproj -> D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\x64\Release\simple-opengl-3d-tool.exe

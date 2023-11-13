@@ -35,7 +35,8 @@ void Display(void) {
     glLoadIdentity();
     gluPerspective(45.0, (GLfloat)(winWidth / 2) / (GLfloat)winHeight, 1.0, 100.0);
 
-    setLookAt(iMode, angle, s_eye, s_at);
+    /*setLookAt(iMode, angle, s_eye, s_at);*/
+    setLookAt(xRot, yRot, zRot, s_eye, s_at);
 
     objectID = getTetrahedron(A, B, C, D);
     glCallList(objectID);
@@ -62,7 +63,21 @@ void ProcessMenu(int value) {
     glutPostRedisplay();
 }
 void Key(unsigned char key, int x, int y) {
-
+    switch (key) {
+    case 'x':
+        xRot = xRot + 10.0;
+        break;
+    case 'y':
+        yRot = yRot - 10.0;
+        break;
+    case 'z':
+        zRot = zRot - 10.0;
+        break;
+    default:
+        break;
+    }
+    setLookAt(xRot,yRot,zRot, s_eye, s_at);
+    glutPostRedisplay();
 }
 void SpecialKeys(int key, int x, int y) {
     switch (key) {
