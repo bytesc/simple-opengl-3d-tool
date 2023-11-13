@@ -36,7 +36,7 @@ D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\getTetrahedron.h(
 D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\getTetrahedron.h(26,29): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
 D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\getTetrahedron.h(26,23): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
 D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\getTetrahedron.h(26,17): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
-D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\simple-opengl-3d-tool.cpp(65,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\simple-opengl-3d-tool.cpp(68,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\simple-opengl-3d-tool.cpp(77,34): warning C4326: “main”的返回类型应为“int”而非“void”
+D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\simple-opengl-3d-tool.cpp(70,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\simple-opengl-3d-tool.cpp(73,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\simple-opengl-3d-tool.cpp(82,34): warning C4326: “main”的返回类型应为“int”而非“void”
   simple-opengl-3d-tool.vcxproj -> D:\ECUST\5semester\computer_graphics\ex3\simple-opengl-3d-tool\x64\Debug\simple-opengl-3d-tool.exe

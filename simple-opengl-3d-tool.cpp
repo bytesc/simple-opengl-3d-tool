@@ -20,13 +20,13 @@ void Display(void) {
     glViewport(0, 0, winWidth / 2, winHeight);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    glOrtho(-10.0, 10.0, -10.0, 10.0, -10.0, 10.0);
+    glOrtho(-5.0, 5.0, -5.0, 5.0, -25.0, 25.0);
     setLookAt(iMode, s_eye, s_at);
 
     objectID = getTetrahedron(A, B, C, D);
     glCallList(objectID);
 
-    axisID = getAxis(5.0f); 
+    axisID = getAxis(3.0f); 
     glCallList(axisID); 
     
 
@@ -48,6 +48,11 @@ void Display(void) {
 
 void initial() {
     glClearColor(1.0,1.0,1.0,1.0);
+}
+
+void ChangeSize(GLsizei w, GLsizei h) {
+    winWidth = w;
+    winHeight = w / 2;
 }
 
 void ProcessMenu(int value) {
@@ -93,7 +98,7 @@ void main(int argc, char** argv) {
 
     glutDisplayFunc(Display);
 
-    //glutReshapeFunc(ChangeSize);
+    glutReshapeFunc(ChangeSize);
     glutKeyboardFunc(Key);
     glutSpecialFunc(SpecialKeys);
 
