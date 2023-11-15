@@ -1,5 +1,4 @@
 #include <gl/glut.h>
-#include"setLookAt.h"
 GLuint getTetrahedron(point3D pA,point3D pB,point3D pC,point3D pD){//4点ABCD定义四面体图元
 	GLuint tetrahedronID = glGenLists(1);//获得一个有效的无符号整数作为列表ID
 	glNewList(tetrahedronID, GL_COMPILE);//通过显示列表定义四面体
